@@ -4,7 +4,6 @@ const viewTasksButton = document.getElementById("ViewButton");
 addTaskButton.addEventListener("click", addTask);
 const taskList = document.getElementById("TaskingList");
 
-// viewTasksButton.addEventListener("click", updateTaskList);
 let tasks = [];
 var isHidden = true;
 
@@ -19,13 +18,11 @@ viewTasksButton.addEventListener("click", () => {
   //   updateTaskList();
 
   if (isHidden) {
-    // If not hidden now, update and show tasks
     updateTaskList();
     viewTasksButton.textContent = "Hide Tasks";
     taskList.classList.remove("hidden");
     isHidden = false;
   } else {
-    // If hidden now, just change the button text
     viewTasksButton.textContent = "View Tasks";
     taskList.classList.add("hidden");
     isHidden = true;
@@ -66,7 +63,6 @@ function updateTaskList() {
 
     `;
 
-    li.className = task.completed ? "completed" : "";
     taskList.appendChild(li);
   });
 }
