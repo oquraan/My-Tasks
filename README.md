@@ -28,17 +28,4 @@
 
 
 ## Web Pages  : 
-
-
-
-### Home Page  
-![HomePage](imges/HomePage3.jpg)
-![HomePage](imges/HomePage.jpg)
->**Home Page:** A header, task input section, task table/list, and footer.
-
-
-###  About Page 
-![AboutPage](./imges/Aboutpage1.jpg)
-![AboutPage2](./imges/Aboutpage2.jpg)
-
->**About Page:** A header, your personal section, a contact form, and a footer.
+ Deploy the project to GitHub Pages [My-Task](https://oquraan.github.io/My-Tasks/ "").
